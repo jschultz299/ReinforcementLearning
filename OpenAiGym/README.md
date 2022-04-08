@@ -52,7 +52,13 @@ model.learn(total_timesteps=100000)
 ```
 results in an average reward of approximately 23 bricks broken per game, shown below.
 
-<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Breakout/Evaluate%20Model.gif" width = 50%>
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Breakout/Evaluate%20Model.gif" width = 40%>
+
+<br>
+
+## 3) Self Driving
+
+This project uses the [CarRacing](https://gym.openai.com/envs/CarRacing-v0/) environment.
 
 ## Acknowledgments
 I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
