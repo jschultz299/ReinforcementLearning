@@ -13,7 +13,7 @@ This repository contains various projects displaying Reinforcement Learning Conc
 
 ## GridWorld
 
-This project applies Reinforcement Learning principles to solve the GridWorld problem originally developed by the UC Berkely AI Program.
+This project applies Reinforcement Learning principles to solve the GridWorld problem originally developed by the UC Berkely [AI Program](http://ai.berkeley.edu/reinforcement.html).
 
 See [GridWorld](https://github.com/jschultz299/ReinforcementLearning/tree/main/GridWorld) for details.
 
