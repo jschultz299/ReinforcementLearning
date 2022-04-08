@@ -71,5 +71,33 @@ Below you can see a demonstration of the agent driving along the track with rand
 
 <img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/SelfDriving/Demo%20Environment.gif" width = 50%>
 
+Training a PPO model with just 10,000 timesteps
+
+```bash
+model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=log_path)
+model.learn(total_timesteps=10000)
+```
+results in an agent with poor performance, shown below.
+
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/SelfDriving/Evaluate%2010k%20Model.gif" width = 50%>
+
+This model achieved an average score of -40.6.
+
+Check out the tensorboard logs for the PPO model trained with 10k timesteps [here](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/SelfDriving/Tensorboard_Logs/10k_Model).
+
+Training the model for more timesteps, this time 200,000
+
+```bash
+model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=log_path)
+model.learn(total_timesteps=200000)
+```
+results in an agent with much better performance, shown below.
+
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/SelfDriving/Evaluate%20200k%20Model.gif" width = 50%>
+
+This model achieved an average score of 436.2, and was even able to fully solve the track on occasion.
+
+Check out the tensorboard logs for the PPO model trained with 10k timesteps [here](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/SelfDriving/Tensorboard_Logs/200k_Model).
+
 ## Acknowledgments
 I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
