@@ -29,9 +29,7 @@ is sufficient for the agent to learn how to balance the pendulum, shown below.
 
 <img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Pendulum/Evaluate%20Model.gif" width = 50%>
 
-Check out the logs for the PPO model trained with 20k timesteps [here](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/Pendulum/Tensorboard%20Logs).
-
-<br>
+Check out the tensorboard logs for the PPO model trained with 20k timesteps [here](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/Pendulum/Tensorboard%20Logs).
 
 ## 2) Breakout
 
@@ -59,8 +57,6 @@ results in an average reward of approximately 23 bricks broken per game, shown b
 Training for significantly longer might improve performance.
 
 Check out the logs for an A2C model trained with 100k timesteps [here](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/Breakout/Tensorboard_Logs).
-
-<br>
 
 ## 3) Self Driving
 
