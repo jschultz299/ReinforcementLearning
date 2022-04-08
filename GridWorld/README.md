@@ -1,7 +1,5 @@
 # GridWorld
 
-The main file is run.m.
-
 The goal of the project is to have the agent explore the GridWorld environment and to learn how best to reach the green space. The agent is rewarded when it reaches the green space, and penalized when it reaches the red space as well as penalized slightly for each action it performs.
 
 The agent has the option of four actions:
@@ -9,6 +7,8 @@ The agent has the option of four actions:
 - Move right
 - Move up
 - Move down
+
+To run the program, open Matlab and run the main script: run.m
 
 ## Section a) Demonstrate One Episode with Random Actions
 
