@@ -15,10 +15,10 @@ This repository contains various projects displaying Reinforcement Learning Conc
 
 This folder contains project files to be run in MatLab.
 
-See [GridWorld](https://github.com/jschultz299/ReinforcementLearning/blob/main/GridWorld/README.md) for details.
+See [GridWorld](https://github.com/jschultz299/ReinforcementLearning/tree/main/GridWorld) for details.
 
 ## OpenAiGym
 
 This folder contains Python project files for 3 different Reinforcement Learning Agent-Environments using OpenAi.Gym
 
-See [OpenAiGym](https://github.com/jschultz299/ReinforcementLearning/OpenAiGym/README.md) for details.
+See [OpenAiGym](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym) for details.
