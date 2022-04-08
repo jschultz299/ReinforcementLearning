@@ -41,3 +41,7 @@ Below you can see the comparison between the first 1000 and 5000 iterations with
 <br>
 
 <img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/GridWorld/Images/Q-Learning.png" width = 70%>
+
+<br>
+
+By comparing the results of section b and section c, we notice that by training with Epsilon Greedy Q-learning, the agent has learned to avoid the bottom sections of the environment.
