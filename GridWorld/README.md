@@ -14,4 +14,4 @@ In this first example, the agent randomly selects an action until it reaches a g
 
 <br>
 
-<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/GridWorld/Images/Demo%20One%20Episode.gif" width=40%>
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/GridWorld/Images/Demo%20One%20Episode.gif" width=60%>
