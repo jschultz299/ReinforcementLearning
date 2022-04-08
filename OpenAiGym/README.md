@@ -60,7 +60,16 @@ Check out the logs for an A2C model trained with 100k timesteps [here](https://g
 
 ## 3) Self Driving
 
-This project uses the [CarRacing](https://gym.openai.com/envs/CarRacing-v0/) environment.
+This project uses the [CarRacing](https://gym.openai.com/envs/CarRacing-v0/) environment. The goal of this project is for the agent (the car) to drive along the track for as long as possible. The agent receives rewards for remaining on the track, and is penalized for leaving the track as well as penalzed slightly for each timestep. The actions the agent may take are the direction to turn the wheels as well as acceleration and braking. All of the actions are in the continuous space. The track is considered solved if the agent receives a total score of 900.
+
+To run the program:
+
+```bash
+python SelfDriving.py
+```
+Below you can see a demonstration of the agent driving along the track with random inputs.
+
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/SelfDriving/Demo%20Environment.gif" width = 50%>
 
 ## Acknowledgments
 I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
