@@ -21,6 +21,7 @@ Below you can see a demonstration of the agent performing random actions for 5 e
 Training a PPO model with 20,000 timesteps
 
 ```bash
+model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=log_path)
 model.learn(total_timesteps=20000, callback=eval_callback)
 ```
 
@@ -41,7 +42,17 @@ python Breakout.py
 ```
 Below you can see a demonstration of the agent playing Breakout with random actions.
 
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Breakout/Demo%20Environment.gif" width = 50%>
 
+Training an A2C model with 2 million timesteps
+
+```bash
+model = A2C('CnnPolicy', env, verbose=1, tensorboard_log=log_path)
+model.learn(total_timesteps=100000)
+```
+results in an average reward of approximately 23 bricks broken per game, shown below.
+
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Breakout/Evaluate%20Model.gif" width = 50%>
 
 ## Acknowledgments
 I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
