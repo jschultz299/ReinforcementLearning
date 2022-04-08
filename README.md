@@ -7,9 +7,9 @@
 
 This repository contains various projects displaying Reinforcement Learning Concepts.
 
-<br>
-
-There are 2 main folders: 1) GridWorld and 2) OpenAiGym.
+#### There are 2 main folders:
+- GridWorld
+- OpenAiGym
 
 ## GridWorld
 
