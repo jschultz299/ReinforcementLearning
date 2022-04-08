@@ -8,8 +8,8 @@
 This repository contains various projects displaying Reinforcement Learning Concepts.
 
 #### There are 2 main folders:
-- GridWorld
-- OpenAiGym
+- GridWorld (MatLab)
+- OpenAiGym (Python)
 
 ## GridWorld
 
