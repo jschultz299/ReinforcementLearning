@@ -13,14 +13,12 @@ This repository contains various projects displaying Reinforcement Learning Conc
 
 ## GridWorld
 
-This folder contains project files to be run in MatLab.
-
 This project applies Reinforcement Learning principles to solve the GridWorld problem originally developed by the UC Berkely AI Program.
 
 See [GridWorld](https://github.com/jschultz299/ReinforcementLearning/tree/main/GridWorld) for details.
 
 ## OpenAiGym
 
-This folder contains Python project files for 3 different Reinforcement Learning Agent-Environments using OpenAi.Gym
+This folder contains Python project files for 3 different Reinforcement Learning Agent-Environments using [OpenAiGym](https://gym.openai.com).
 
 See [OpenAiGym](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym) for details.
