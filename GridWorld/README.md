@@ -2,7 +2,9 @@
 
 The main file is run.m.
 
-The first section of the code will render the GridWorld environment and demonstrate one episode with random inputs.
+## Section a) Demonstrate One Episode with Random Actions
+
+The first section of the code will render the GridWorld environment and demonstrate one episode with random actions.
 
 The agent has the option of four actions:
 - Move left
