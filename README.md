@@ -15,8 +15,6 @@ This repository contains various projects displaying Reinforcement Learning Conc
 
 This folder contains project files to be run in MatLab.
 
-<br>
-
 This project applies Reinforcement Learning principles to solve the GridWorld problem originally developed by the UC Berkely AI Program.
 
 See [GridWorld](https://github.com/jschultz299/ReinforcementLearning/tree/main/GridWorld) for details.
