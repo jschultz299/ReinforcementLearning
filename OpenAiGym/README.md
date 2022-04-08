@@ -15,3 +15,8 @@ python Pendulum.py
 Below you can see a demonstration of the agent performing random actions for 5 episodes.
 
 <img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Pendulum/Demo%20Environment.gif" width=40%>
+
+<br>
+
+## Acknowledgments
+I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse)
