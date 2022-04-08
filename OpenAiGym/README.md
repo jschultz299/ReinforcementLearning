@@ -54,6 +54,10 @@ results in an average reward of approximately 23 bricks broken per game, shown b
 
 <img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Breakout/Evaluate%20Model.gif" width = 40%>
 
+Training for significantly longer might improve performance.
+
+Check out the logs for an A2C model trained with 100k timesteps [here](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/Breakout/Tensorboard_Logs)
+
 <br>
 
 ## 3) Self Driving
