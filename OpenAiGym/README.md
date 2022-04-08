@@ -99,7 +99,7 @@ This model achieved an average score of 436.2, and was even able to fully solve 
 
 Check out the tensorboard logs for the PPO model trained with 10k timesteps [here](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym/Images/SelfDriving/Tensorboard_Logs/200k_Model).
 
-Because the actions are continuous, the model has a hard time learning the appropriate actions to take. It is possible that training for longer might result in better performance. [NotAnyMike](https://github.com/NotAnyMike) adjusted the actions space to only use discrete inputs, which simplified the problem somewhat. Check out his solution [here](https://notanymike.github.io/Solving-CarRacing/).
+Because the actions are continuous, the model has a hard time learning the appropriate actions to take. It is possible that training for longer might result in better performance. [NotAnyMike](https://github.com/NotAnyMike) tried adjusting the action space to only use discrete inputs, which simplified the problem somewhat. Check out his solution [here](https://notanymike.github.io/Solving-CarRacing/).
 
 ## Acknowledgments
 I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
