@@ -14,9 +14,34 @@ python Pendulum.py
 
 Below you can see a demonstration of the agent performing random actions for 5 episodes.
 
-<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Pendulum/Demo%20Environment.gif" width=40%>
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Pendulum/Demo%20Environment.gif" width=50%>
 
 <br>
 
+Training a PPO model with 20,000 timesteps
+
+```bash
+model.learn(total_timesteps=20000, callback=eval_callback)
+```
+
+is sufficient for the agent to learn how to balance the pendulum, shown below.
+
+<img src="https://github.com/jschultz299/ReinforcementLearning/blob/main/OpenAiGym/Images/Pendulum/Evaluate%20Model.gif" width = 50%>
+
+<br>
+
+## 2) Breakout
+
+This project uses the [Breakout](https://gym.openai.com/envs/Breakout-v0/) environment. The goal of the project is to play the Atari game Breakout. The agent is rewarded for each brick it breaks, and penalized for losing lives.
+
+To run the program:
+
+```bash
+python Breakout.py
+```
+Below you can see a demonstration of the agent playing Breakout with random actions.
+
+
+
 ## Acknowledgments
-I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse)
+I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
