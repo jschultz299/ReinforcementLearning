@@ -1,6 +1,6 @@
 # OpenAiGym
 
-There are 3 main projects within this folder, all of which leverage OpenAi [Gym](https://gym.openai.com) Environments.
+There are 4 main projects within this folder, all of which leverage OpenAi [Gym](https://gym.openai.com) Environments.
 
 ## 1) Pendulum
 
@@ -103,3 +103,15 @@ Because the actions are continuous, the model has a hard time learning the appro
 
 ## Acknowledgments
 I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
+
+## 4) Super Mario Bros
+
+This project uses the [SuperMarioBros]([https://gym.openai.com/envs/CartPole-v1/](https://pypi.org/project/gym-super-mario-bros/)) environment wrapper. The goal of the project is the train the agent to learn how to play Super Mario Bros. The agent is rewarded if Mario reaches the flag.
+
+To run the program:
+
+```bash
+python SuperMarioBros.py
+```
+
+COMING SOON...
