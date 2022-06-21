@@ -101,9 +101,6 @@ Check out the tensorboard logs for the PPO model trained with 10k timesteps [her
 
 Because the actions are continuous, the model has a hard time learning the appropriate actions to take. It is possible that training for longer might result in better performance. [NotAnyMike](https://github.com/NotAnyMike) tried adjusting the action space to only use discrete inputs, which simplified the problem somewhat. Check out his solution [here](https://notanymike.github.io/Solving-CarRacing/).
 
-## Acknowledgments
-I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
-
 ## 4) Super Mario Bros
 
 This project uses the [SuperMarioBros]([https://gym.openai.com/envs/CartPole-v1/](https://pypi.org/project/gym-super-mario-bros/)) environment wrapper. The goal of the project is the train the agent to learn how to play Super Mario Bros. The agent is rewarded if Mario reaches the flag.
@@ -115,3 +112,8 @@ python SuperMarioBros.py
 ```
 
 COMING SOON...
+
+## Acknowledgments
+I want to thank Nicholas Renotte for his [Reinforcement Learning in 3 Hours](https://www.youtube.com/watch?v=Mut_u40Sqz4) course on YouTube. You can check out his code for these projects as well [here](https://github.com/nicknochnack/ReinforcementLearningCourse).
+
+
