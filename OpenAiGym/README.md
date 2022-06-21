@@ -118,7 +118,7 @@ INSERT VIDEO HERE
 
 An additional layer of complexity is that we can stack frames on top of each other to give the agent a sense of 'memory'. In this case, we not only tell the agent to pay attention to the current frame, but also the previous 7 frames as well. Below you can see an image of the stacked frames.
 
-INSERT IMAGE HERE
+INSERT IMAGE HERE...
 
 COMING SOON...
 
