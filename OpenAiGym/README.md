@@ -105,6 +105,8 @@ Because the actions are continuous, the model has a hard time learning the appro
 
 This project uses the [SuperMarioBros]([https://gym.openai.com/envs/CartPole-v1/](https://pypi.org/project/gym-super-mario-bros/)) environment wrapper. The goal of the project is the train the agent to learn how to play Super Mario Bros. The agent is rewarded if Mario reaches the flag.
 
+Mario has a number of actions he can take, which correspond to the input buttons on a ...
+
 To run the program:
 
 ```bash
