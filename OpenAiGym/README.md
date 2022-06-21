@@ -103,9 +103,9 @@ Because the actions are continuous, the model has a hard time learning the appro
 
 ## 4) Super Mario Bros
 
-This project uses the [SuperMarioBros](https://pypi.org/project/gym-super-mario-bros/) environment wrapper. The goal of the project is the train the agent to learn how to play Super Mario Bros. The agent is rewarded if Mario reaches the flag.
+This project uses the [SuperMarioBros](https://pypi.org/project/gym-super-mario-bros/) environment wrapper. The goal of the project is the train the agent to learn how to play Super Mario Bros. The agent is rewarded for moving to the right and for reaching the flag. The agent is penalized for how much time it takes to reach the flag and for deaths.
 
-Mario has a number of actions he can take, which correspond to the input buttons on a ...
+Mario has a number of actions he can take, which correspond to the input buttons on a game controller. There are three different [action spaces](https://github.com/Kautenja/gym-super-mario-bros/blob/master/gym_super_mario_bros/actions.py) with varying levels of complexity. In this project, the "Simple Movement" action space is used.
 
 To run the program:
 
