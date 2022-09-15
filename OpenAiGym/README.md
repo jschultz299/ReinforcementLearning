@@ -4,7 +4,7 @@ There are 4 main projects within this folder, all of which leverage OpenAi [Gym]
 
 ## 1) Pendulum
 
-This project uses the [CartPole](https://gym.openai.com/envs/CartPole-v1/) environment. The goal of the project is the train the agent to learn how to balance the pendulum upright for an extended period of time. The agent is rewarded if the pendulum remains upright within a certain range of joint angles.
+This project uses the [CartPole](https://www.gymlibrary.dev/environments/classic_control/cart_pole/) environment. The goal of the project is the train the agent to learn how to balance the pendulum upright for an extended period of time. The agent is rewarded if the pendulum remains upright within a certain range of joint angles.
 
 To run the program:
 
