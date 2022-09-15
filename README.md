@@ -13,12 +13,12 @@ This repository contains various projects displaying Reinforcement Learning Conc
 
 ## GridWorld
 
-This project applies Reinforcement Learning principles to solve the GridWorld problem originally developed by the UC Berkely AI Program.
+This project applies Reinforcement Learning principles to solve the GridWorld problem originally developed by the UC Berkely [AI Program](http://ai.berkeley.edu/reinforcement.html).
 
 See [GridWorld](https://github.com/jschultz299/ReinforcementLearning/tree/main/GridWorld) for details.
 
 ## OpenAiGym
 
-This folder contains Python project files for 3 different Reinforcement Learning Agent-Environments using [Gym](https://gym.openai.com).
+This folder contains Python project files for 4 different Reinforcement Learning Agent-Environments using [Gym](https://gym.openai.com).
 
 See [OpenAiGym](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym) for details.

@@ -1,8 +1,3 @@
-% MCE 793: Intelligent Controls
-% Interactive Session: Reinforcement Learning
-% Created by Jack Schultz
-% April 28th, 2020
-
 %% Part a) Program Episodes
 
 clear; clc; close all
