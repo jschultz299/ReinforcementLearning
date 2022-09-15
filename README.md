@@ -19,6 +19,6 @@ See [GridWorld](https://github.com/jschultz299/ReinforcementLearning/tree/main/G
 
 ## OpenAiGym
 
-This folder contains Python project files for 3 different Reinforcement Learning Agent-Environments using [Gym](https://gym.openai.com).
+This folder contains Python project files for 4 different Reinforcement Learning Agent-Environments using [Gym](https://gym.openai.com).
 
 See [OpenAiGym](https://github.com/jschultz299/ReinforcementLearning/tree/main/OpenAiGym) for details.
