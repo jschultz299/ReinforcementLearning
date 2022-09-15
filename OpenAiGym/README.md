@@ -33,7 +33,7 @@ Check out the tensorboard logs for the PPO model trained with 20k timesteps [her
 
 ## 2) Breakout
 
-This project uses the [Breakout](https://gym.openai.com/envs/Breakout-v0/) environment. The goal of the project is to play the Atari game Breakout. The agent is rewarded for each brick it breaks, and penalized for losing lives.
+This project uses the [Breakout](https://www.gymlibrary.dev/environments/atari/breakout/) environment. The goal of the project is to play the Atari game Breakout. The agent is rewarded for each brick it breaks, and penalized for losing lives.
 
 To run the program:
 
