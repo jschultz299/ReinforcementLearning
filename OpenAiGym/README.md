@@ -60,7 +60,7 @@ Check out the logs for an A2C model trained with 100k timesteps [here](https://g
 
 ## 3) Self Driving
 
-This project uses the [CarRacing](https://gym.openai.com/envs/CarRacing-v0/) environment. The goal of this project is for the agent (the car) to drive along the track for as long as possible. The agent receives rewards for remaining on the track, and is penalized for leaving the track as well as penalzed slightly for each timestep. The actions the agent may take are the direction to turn the wheels as well as acceleration and braking. All of the actions are in the continuous space. The track is considered solved if the agent receives a total score of 900.
+This project uses the [CarRacing](https://www.gymlibrary.dev/environments/box2d/car_racing/) environment. The goal of this project is for the agent (the car) to drive along the track for as long as possible. The agent receives rewards for remaining on the track, and is penalized for leaving the track as well as penalzed slightly for each timestep. The actions the agent may take are the direction to turn the wheels as well as acceleration and braking. All of the actions are in the continuous space. The track is considered solved if the agent receives a total score of 900.
 
 To run the program:
 
